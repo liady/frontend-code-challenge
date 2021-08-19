@@ -1,10 +1,11 @@
+import Box from '@material-ui/core/Box';
 import styles from './App.module.scss';
 
 function App() {
   return (
-    <div className={styles.root}>
+    <Box className={styles.root}>
       Frontend Code challenge
-    </div>
+    </Box>
   );
 }
 
