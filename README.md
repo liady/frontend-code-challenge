@@ -9,9 +9,9 @@ specific weather insights on locations of interest over a timeline.
 
 For this purpose the repository contains a mock server that will represent our api.
 In order to run the server use `npm run api`. The api contains following routes:
-* `/locations` - will return the locations that we want to monitor on the dashboard
-* `/insights` - will return the insights that we have in the system
-* `/events` - events that happened to the locations based on the insights over time
+* `http://localhost:5000/locations` - will return the locations that we want to monitor on the dashboard
+* `http://localhost:5000/insights` - will return the insights that we have in the system
+* `http://localhost:5000/events` - events that happened to the locations based on the insights over time
 
 #### Required solution:
 
