@@ -5,7 +5,7 @@
 ## The Weather Impact Dashboard
 
 In this exercise, you will create a weather dashboard that presents an impact of 
-specific weather insights on locations that we are interested over the timeline.
+specific weather insights on locations of interest over a timeline.
 
 For this purpose the repository contains a mock server that will represent our api.
 In order to run the server use `npm run api`. The api contains following routes:
