@@ -7,17 +7,22 @@
 In this exercise, you will create a weather dashboard that presents an impact of 
 specific weather insights on locations of interest over a timeline.
 
-For this purpose the repository contains a mock server that will represent our api.
-In order to run the server use `npm run api`. The api contains following routes:
-* `http://localhost:5000/locations` - will return the locations that we want to monitor on the dashboard
-* `http://localhost:5000/insights` - will return the insights that we have in the system
-* `http://localhost:5000/events` - events that happened to the locations based on the insights over time
+For this purpose the repository contains:
+ 
+1. A mock server that will represent our api. In order to run the server use `npm run api`. The api contains following routes:
+    * `http://localhost:5000/locations` - will return the locations that we want to monitor on the dashboard
+    * `http://localhost:5000/insights` - will return the insights that we have in the system
+    * `http://localhost:5000/events` - events that happened to the locations based on the insights over time
+
+2. State boilerplate - initial redux configuration
+
+**We recommend forking this repository and use our template for quick bootstrapping.**
 
 #### Required solution:
 
 ##### Simple
 
-* Create a basic web application. **We recommend forking this repository and use our template for quick bootstrapping.**
+* Create a basic web application.
 * This application should show a dashboard of locations and events happening for those locations
 * Example of the final solution: ![simple](./exercise/simple.png)
 * For the simple solution we want the dashboard to have the following features:
