@@ -27,9 +27,8 @@ For this purpose the repository contains:
 * Example of the final solution: ![simple](./exercise/simple.png)
 * For the simple solution we want the dashboard to have the following features:
     * Each row in the dashboard represents Locations + Insight and the events happening over time
-    * Each event related to the specific insight should have a dedicated color
+    * Each timeline of events related to the specific insight should have a dedicated color based on the insight's severity (choose colors as you wish) 
     * Clicking on refresh button will bring new events from the server
-
 
 ##### Advanced
 
@@ -45,7 +44,7 @@ TBD
 #### After you finish:
 
 Upload your code to Github, and share it with us. Notice: make it private, not public.
-Make sure the app is ready to run by running npm i and npm start.
+Make sure the app is ready to run by running `npm i`, `npm start` and `npm run api`.
 Make sure the service API is well documented with README file, so we can try it and understand it.
 
 #### Guidelines:
