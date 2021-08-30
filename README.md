@@ -39,7 +39,7 @@ For this purpose the repository contains:
 
 ##### Bonus
 
-TBD
+Deploy your solution to a static web hosting service of your choice (such as: Heroku, Github, AWS S3, Netlify etc..) so it is publicly available.
 
 #### After you finish:
 
