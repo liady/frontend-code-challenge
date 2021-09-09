@@ -10,7 +10,9 @@ const Endpoints = {
 };
 
 function createEndpoint(endpoint) {
-    return `http://localhost:5000/${endpoint}`;
+    return `${
+        process.env.REACT_APP_API_HOST || 'http://localhost:5000'
+    }/${endpoint}`;
 }
 
 export async function refreshData() {
