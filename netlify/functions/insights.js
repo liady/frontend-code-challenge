@@ -1,4 +1,4 @@
-const insights = require('./insights.json');
+const insights = require('../../exercise/insights.json');
 exports.handler = async function (event, context) {
     return {
         statusCode: 200,

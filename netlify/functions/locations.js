@@ -1,4 +1,4 @@
-const locations = require('./locations.json');
+const locations = require('../../exercise/locations.json');
 exports.handler = async function (event, context) {
     return {
         statusCode: 200,

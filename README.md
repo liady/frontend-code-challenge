@@ -1,6 +1,7 @@
 ![Tomorrow.io](https://hypercast-assets.s3-us-west-2.amazonaws.com/img/Tomorrow_Logo.png "Tomorrow.io")
 
 # Take Control over The Weather
+[![Netlify Status](https://api.netlify.com/api/v1/badges/983cafc5-0214-4170-b1b7-efd467dbe1b9/deploy-status)](https://app.netlify.com/sites/priceless-volhard-7556dc/deploys)
 
 ## The Weather Impact Dashboard
 
